@@ -1,0 +1,27 @@
+.cover {
+	width: 100%;
+	height: 30vh;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+
+	background: rgb(67,71,66);
+	background: linear-gradient(0deg, rgba(67,71,66,1) 0%, rgba(108,117,107,1) 25%, rgba(234,249,217,1) 100%);
+}
+
+.cover--header {
+	font-size: 2.625rem;
+}
+
+.cover--header__month {
+	text-shadow: 4px 4px 4px rgba(250, 250, 250, 0.25);
+}
+
+/* desktop to tablet view */
+@media (min-width: 768px) {
+	.cover--header {
+		font-size: 3.625rem;
+	}
+}
